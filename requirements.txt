@@ -15,3 +15,5 @@ pysocket
 argparse
 times
 subprocess
+os
+sqlite3

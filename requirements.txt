@@ -8,7 +8,7 @@ aiohttp
 py7zr
 cloudscraper
 pythreading
-sys
+pysys
 pywebview
 scapy
 pysocket

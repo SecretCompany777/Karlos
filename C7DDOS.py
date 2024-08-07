@@ -1,14 +1,16 @@
 try:
     import socket, random, os, threading, sys, struct
+
+def menu():
+    subprocess.run(["python", "main.py"])
+
 except ModuleNotFoundError as e:
     print("Module Not Installed.. ", (e))
 if os.name == 'posix':
     os.system('clear')
 elif os.name == 'nt':
     os.system('cls')
-    
-def menu():
-    subprocess.run(["python", "main.py"])
+
 
 logo = """
 

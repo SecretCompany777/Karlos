@@ -6,6 +6,9 @@ asyncio
 aiohttp
 py7zr
 cloudscraper
+threading
+sys
+pywebview
 scapy
 pysocket
 argparse

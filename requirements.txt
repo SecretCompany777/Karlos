@@ -7,7 +7,7 @@ asyncio
 aiohttp
 py7zr
 cloudscraper
-threading
+pythreading
 sys
 pywebview
 scapy

@@ -1,5 +1,5 @@
 requests
-random
+pyrandom
 colorama
 pystyle
 beautifulsoup4

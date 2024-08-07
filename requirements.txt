@@ -1,0 +1,16 @@
+requests
+colorama
+pystyle
+beautifulsoup4
+pywebview
+asyncio
+aiohttp
+py7zr
+cloudscraper
+scapy
+threading
+socket
+argparse
+times
+sys
+subprocess

@@ -10,5 +10,4 @@ scapy
 pysocket
 argparse
 times
-sys
 subprocess

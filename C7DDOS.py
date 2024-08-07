@@ -6,8 +6,8 @@ if os.name == 'posix':
     os.system('clear')
 elif os.name == 'nt':
     os.system('cls')
-
- def menu():
+    
+def menu():
     subprocess.run(["python", "main.py"])
 
 logo = """

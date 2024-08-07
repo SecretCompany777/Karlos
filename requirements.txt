@@ -14,6 +14,6 @@ scapy
 pysocket
 argparse
 times
-os
+pyos
 sqlite3
 struct

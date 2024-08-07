@@ -9,7 +9,7 @@ import subprocess
 from colorama import init, Fore, Style
 
 def menu():
-    subprocess.run(["python", "secret.py"])
+    subprocess.run(["python", "main.py"])
 
 ##############################################################################################################################################################################
 # Twitter Username Checker Function 

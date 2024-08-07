@@ -1,7 +1,6 @@
 import os
 import pystyle 
 import time
-import webview as w
 from colorama import init, Fore, Style
 import argparse
 import requests

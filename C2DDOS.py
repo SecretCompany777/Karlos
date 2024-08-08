@@ -87,7 +87,7 @@ YMMMUP^
               MADE BY : SECRET AGENCY
              TEAM  : 777Company
 """
-print("/033[32;1mWELCOME TO SECRET AGENCY" + logo)
+print(=/033[32;1m("WELCOME TO SECRET AGENCY" + logo)
 try:
     ip = input(f"\033[0;32mIP Target : ")
     port = int(input("Port : "))

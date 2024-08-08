@@ -11,13 +11,13 @@ pc_username = os.getlogin()
 r = Fore.RED
 b = Fore.BLUE
 
-def freerdp():
+def c2ddos():
     subprocess.run(["python", "tools/C2DDOS.py"])
 
-def censys():
+def c7ddos():
     subprocess.run(["python", "tools/C7DDOS.py"])
 
-def doxtracker():
+def doxtracking():
     subprocess.run(["python", "tools/DoxTracking.py"])
 
 def phonetools():
@@ -117,11 +117,11 @@ choice = i.upper()
 try:
 
     options = {
-        '1': ('C2DDOS', C2DDOS),
-        '2': ('C7DDOS', C7DDOS),
-        '3': ('DoxTracking', DoxTracking),
-        '4': ('PhoneLookup', PhoneLookup),
-        '5': ('UsernameChecker', UsernameChecker),
+        '1': ('C2DDOS', c2ddos),
+        '2': ('C7DDOS', c7ddos),
+        '3': ('DoxTracking', doxtracking),
+        '4': ('PhoneLookup', phonetools),
+        '5': ('UsernameChecker', usernamechecker),
 
     }
 

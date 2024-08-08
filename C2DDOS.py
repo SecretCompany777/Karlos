@@ -16,7 +16,7 @@ elif os.name == "nt":
     os.system('cls')
 
 logo = """
-                                                                                                                                                      
+print(\033[32;1m                                                                                                                                                      
                                               ..^~~~~:.                                             
                                            .:^~7JPGBBPYJ7.                                          
                                          .~??JYPPGGBBB###P?.                                        
@@ -87,7 +87,7 @@ YMMMUP^
               MADE BY : SECRET AGENCY
              TEAM  : 777Company
 """
-print("\033[31;1m" Fore.LIGHTMAGENTA_EX + logo)
+print(Fore.LIGHTMAGENTA_EX + logo)
 try:
     ip = input(f"\033[0;32mIP Target : ")
     port = int(input("Port : "))

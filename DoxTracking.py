@@ -20,11 +20,13 @@ logo = """
 ██████╔╝╚█████╔╝  ██║  ██║╚██████╔╝███████╗██║ ╚███║╚█████╔╝   ██║
 ╚═════╝  ╚════╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚══╝ ╚════╝    ╚═╝
 
+"""
+logo_width = len(logo.splitlines()[0])
+terminal_width = os.get_terminal_size().columns
 
+padding = int((terminal_width - logo_width) / 2)
 
-
-
-
+print("\033[31;1m" + "".join([" " * padding, logo, ""]))
 
 def googled(sq):
     url = f'https://www.google.com/search?q=site:doxbin.com+"{sq}"'

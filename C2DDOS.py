@@ -15,7 +15,6 @@ if os.name == "posix":
 elif os.name == "nt":
     os.system('cls')
 
-print(\033[32;1m
 logo = """
 
                                               ..^~~~~:.                                             
@@ -88,7 +87,7 @@ YMMMUP^
               MADE BY : SECRET AGENCY
              TEAM  : 777Company
 """
-print(Fore.LIGHTMAGENTA_EX + logo)
+print(Fore.VIVAMAGENTA_EX + logo)
 try:
     ip = input(f"\033[0;32mIP Target : ")
     port = int(input("Port : "))

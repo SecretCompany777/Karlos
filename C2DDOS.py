@@ -15,8 +15,9 @@ if os.name == "posix":
 elif os.name == "nt":
     os.system('cls')
 
+print(\033[32;1m
 logo = """
-print(\033[32;1m                                                                                                                                                      
+
                                               ..^~~~~:.                                             
                                            .:^~7JPGBBPYJ7.                                          
                                          .~??JYPPGGBBB###P?.                                        

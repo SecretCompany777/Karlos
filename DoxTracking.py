@@ -9,7 +9,7 @@ from colorama import init, Fore, Style
 init(autoreset=True)
 
 def menu():
-    subprocess.run(["python3", "main.py"])
+    subprocess.run(["python", "main.py"])
 
 logo = """
 

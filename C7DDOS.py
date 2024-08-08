@@ -1,5 +1,5 @@
 try:
-    import socket, random, os, threading, sys, struct
+    import socket, random, os, threading, sys, struct, subprocess
 
 def menu():
     subprocess.run(["python", "main.py"])

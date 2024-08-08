@@ -87,7 +87,7 @@ YMMMUP^
               MADE BY : SECRET AGENCY
              TEAM  : 777Company
 """
-print(Fore.VIVAMAGENTA_EX + logo)
+print("/033[32;1m" + logo)
 try:
     ip = input(f"\033[0;32mIP Target : ")
     port = int(input("Port : "))
